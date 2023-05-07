@@ -1,0 +1,284 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Header */
+
+.header {
+    position: relative;
+    min-height: 100vh;
+    background: #E5E5E5;
+    background-image: url("/img/header/round2.svg");
+    background-repeat: no-repeat;
+    background-position: 1770px 700px;
+}
+
+.nav {
+    position: relative;
+}
+
+.hero-in-header {
+    margin-left: 200px;
+}
+
+.container {
+    width: 1100px;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu-in-header {
+    padding-top: 16px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+    gap: 64px;
+}
+
+.menu-links {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+/* Main */
+
+.main {
+    display: flex;
+}
+
+.main-in-main {
+    display: flex;
+    background-image: url("/img/header/round1.svg");
+    background-repeat: no-repeat;
+    background-position: 240px 150px;
+}
+
+
+
+.line-in-h1-in-title-in-main{
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.socials-in-main {
+    display: flex;
+    margin-top: 177px; 
+    gap: 17px;
+    margin-bottom: 20px;
+}
+
+.h1-in-title-in-main {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 68px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.underline {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+.paragraph-in-main {
+    margin-bottom: 30px;
+}
+
+.p-in-title-in-main {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #000000;
+}
+
+.button-and-q {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.q-in-main {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.p-button-in-main{
+    width: 152px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 105.19%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F28B64;
+    border-radius: 100px;
+    padding: 11px 24px 11px 24px;
+}
+
+.button-in-main {
+    border-style: none;
+    text-decoration: none;
+}
+
+.p-in-img-in-chat {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 105.19%;
+    color: #000000;
+}
+
+/* Teach */
+
+.teach {
+    margin-bottom: 61px;
+}
+
+.title-in-teach {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.h2-in-teach {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 88px;
+    color: #000000;
+}
+
+.span-in-teach {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+.card-in-teach {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 35px;
+}
+
+.icons-in-achivment {
+    margin-right: 20px;
+}
+
+.achivments-in-teach {
+    width: 196px;
+    display: flex;
+    gap: 135px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+.achivments-in-teach:first-child {
+    margin-left: 100px;
+}
+
+.achivment {
+    display: flex;
+}
+
+.info-in-achivment {
+    width: 96px;
+}
+
+.h2-in-achivment {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+
+.p-in-achivment {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+/* Ready */
+
+.ready {
+    background: #F0F0F0;
+    padding-bottom: 46px;
+}
+
+.main-in-ready {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    background: url("../img/ready/corner.svg");
+    background-repeat: no-repeat;
+    background-position: 50px;
+}
+
+
+.h2-in-main-title-in-ready {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 65px;
+    color: #000000;
+    margin-left: 100px;
+}
+
+.h2-in-main-title-in-main-info-in-ready {
+    margin-top: 46px;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 65px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.paragraph-in-main-info-in-ready {
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+.p-in-paragraph-in-main-info-in-ready {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.p2-in-paragraph-in-main-info-in-ready {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+/* Footer */
+
+.main-in-footer {
+    display: flex;
+    gap: 380px;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+.h2-in-footer {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 65px;
+    color: #000000;
+    margin-bottom: 20px;
+}
